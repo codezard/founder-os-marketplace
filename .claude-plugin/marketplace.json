@@ -1,0 +1,119 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "founder-os-marketplace",
+  "metadata": {
+    "description": "Founder OS — a system of Claude Code skills that takes a solo founder from experience gap to first $1M ARR.",
+    "version": "0.1.0"
+  },
+  "owner": {
+    "name": "codezard",
+    "url": "https://github.com/codezard"
+  },
+  "plugins": [
+    {
+      "name": "founder-core",
+      "source": "./founder-core",
+      "description": "Shared foundation: operating principles, the stage map to $1M, the metrics glossary, the ICP schema, writing standards, templates, and the scripts other plugins call. Ships /founder-os:status. Install this first.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "commands": ["./commands/status.md"]
+    },
+    {
+      "name": "discovery",
+      "source": "./discovery",
+      "description": "Find and validate the idea (skills 1–3): mine experience gaps, map communities, and prove demand with money/time/access evidence.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/find-business-idea",
+        "./skills/community-finder",
+        "./skills/validate-idea"
+      ]
+    },
+    {
+      "name": "product-strategy",
+      "source": "./product-strategy",
+      "description": "Know the market, ship the smallest thing that wins (skills 4–8): market sizing, positioning, MVP scoping, PMF measurement, landing pages.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/market-research",
+        "./skills/competitive-analysis",
+        "./skills/mvp-scoper",
+        "./skills/pmf-measure",
+        "./skills/landing-page"
+      ]
+    },
+    {
+      "name": "sales-revenue",
+      "source": "./sales-revenue",
+      "description": "Turn attention into money (skills 9–13): offer creation, pricing, cold outreach, first customers, objection handling.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/offer-creation",
+        "./skills/pricing-strategy",
+        "./skills/cold-outreach",
+        "./skills/first-customers",
+        "./skills/objection-handling"
+      ]
+    },
+    {
+      "name": "marketing-growth",
+      "source": "./marketing-growth",
+      "description": "Predictable attention (skills 14–19): marketing plan, copywriting, SEO content, email campaigns, social media, paid ads.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/marketing-plan",
+        "./skills/copywriting",
+        "./skills/seo-content",
+        "./skills/email-campaigns",
+        "./skills/social-media",
+        "./skills/paid-ads"
+      ]
+    },
+    {
+      "name": "operations-systems",
+      "source": "./operations-systems",
+      "description": "Get the founder out of the machine (skills 20–24): processize, SOP builder, automation, delegation, hiring.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/processize",
+        "./skills/sop-builder",
+        "./skills/automation-workflows",
+        "./skills/delegation-framework",
+        "./skills/hiring-playbook"
+      ]
+    },
+    {
+      "name": "finance-fundraising",
+      "source": "./finance-fundraising",
+      "description": "Know the numbers, raise only if you must (skills 25–28): unit economics, financial model, pitch deck, fundraising decision.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/unit-economics",
+        "./skills/financial-model",
+        "./skills/pitch-deck",
+        "./skills/fundraising"
+      ]
+    },
+    {
+      "name": "leadership-mindset",
+      "source": "./leadership-mindset",
+      "description": "Run yourself and the company (skills 29–34): company values, minimalist review, sustainable growth, decision frameworks, founder productivity, team building.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "skills": [
+        "./skills/company-values",
+        "./skills/minimalist-review",
+        "./skills/sustainable-growth",
+        "./skills/decision-frameworks",
+        "./skills/founder-productivity",
+        "./skills/team-building"
+      ]
+    }
+  ]
+}
