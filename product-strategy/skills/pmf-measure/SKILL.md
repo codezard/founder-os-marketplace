@@ -21,9 +21,9 @@ Customer list with usage/payment data (CSV: `customer_id, signup_date, active_da
 1. **Run the PMF survey** to all active customers: the Sean Ellis question ("How would you feel if you could no longer use this?") + 4 follow-ups (who are you, main benefit, what would you use instead, how to improve).
 2. **Compute:** % "very disappointed"; cohort retention curves (does the curve flatten?); organic/referral share of new customers; expansion vs. churn revenue. Run:
    ```bash
-   python "${CLAUDE_PLUGIN_ROOT}/../founder-core/scripts/retention.py" founder/activity.csv --period week
+   python founder-core/scripts/retention.py founder/activity.csv --period week
    ```
-   (Path is illustrative — point it at `founder-core/scripts/retention.py`.)
+   (CSV: `customer_id, signup_date, active_date`.)
 3. **Segment the "very disappointed" cohort** — who they are, what they use it for, the words they use. That segment **is** the real ICP; update `references/icp-schema.md`-shaped record.
 4. **Verdict: Strong / Emerging / Absent**, naming the one bottleneck (acquisition, activation, retention, or monetization).
 5. **Recommend:** Absent → back to positioning/MVP; Emerging → narrow the ICP; Strong → unlock `marketing-plan` and `unit-economics`.

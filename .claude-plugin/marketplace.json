@@ -15,8 +15,7 @@
       "source": "./founder-core",
       "description": "Shared foundation: operating principles, the stage map to $1M, the metrics glossary, the ICP schema, writing standards, templates, and the scripts other plugins call. Ships /founder-os:status. Install this first.",
       "version": "0.1.0",
-      "category": "productivity",
-      "commands": ["./commands/status.md"]
+      "category": "productivity"
     },
     {
       "name": "discovery",
