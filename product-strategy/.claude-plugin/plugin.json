@@ -1,0 +1,9 @@
+{
+  "name": "product-strategy",
+  "version": "0.1.0",
+  "description": "Know the market and ship the smallest thing that wins: bottom-up market sizing, competitive positioning, MVP scoping, product-market-fit measurement, and converting landing pages.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["market-research", "positioning", "mvp", "product-market-fit", "landing-page"]
+}

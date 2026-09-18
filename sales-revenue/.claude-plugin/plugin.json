@@ -1,0 +1,9 @@
+{
+  "name": "sales-revenue",
+  "version": "0.1.0",
+  "description": "Turn attention into money: build an irresistible offer, price to value, run personalized cold outreach, land the first ten paying customers by hand, and defuse objections.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["sales", "pricing", "offer", "cold-outreach", "objection-handling"]
+}

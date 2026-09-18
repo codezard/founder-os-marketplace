@@ -1,0 +1,11 @@
+{
+  "name": "founder-core",
+  "version": "0.1.0",
+  "description": "Shared foundation for the Founder OS marketplace: operating principles, the stage map to $1M, the metrics glossary, the ICP schema, writing standards, shared templates, and the scripts every other plugin depends on (including the gate checker behind /founder-os:status).",
+  "author": {
+    "name": "codezard"
+  },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["founder", "startup", "bootstrapping", "product-market-fit", "revenue"]
+}

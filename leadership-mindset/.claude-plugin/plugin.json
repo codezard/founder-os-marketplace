@@ -1,0 +1,9 @@
+{
+  "name": "leadership-mindset",
+  "version": "0.1.0",
+  "description": "Run yourself and the company: mine real decisions into values, cut complexity every quarter, grow within guardrails, decide with the right frame, protect founder focus and energy, and build a healthy team.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["leadership", "decision-making", "productivity", "company-values", "team-building"]
+}

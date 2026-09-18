@@ -1,0 +1,9 @@
+{
+  "name": "operations-systems",
+  "version": "0.1.0",
+  "description": "Get the founder out of the machine: inventory recurring work, write SOPs, automate stable processes, delegate with a trust ladder, and hire with a scorecard — in that order.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["operations", "sop", "automation", "delegation", "hiring"]
+}

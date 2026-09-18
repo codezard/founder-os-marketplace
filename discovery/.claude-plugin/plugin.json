@@ -1,0 +1,9 @@
+{
+  "name": "discovery",
+  "version": "0.1.0",
+  "description": "Find and validate experience-gap business ideas: mine your career for hard-to-copy problems, map where the sufferers gather, and kill or confirm demand with money/time/access evidence before you build.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["founder", "idea-validation", "customer-research", "startup", "experience-gap"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "finance-fundraising",
+  "version": "0.1.0",
+  "description": "Know the numbers, raise only if you must: unit economics with guardrails, a driver-based financial model, an investor pitch deck, and a bootstrap-or-raise decision with non-dilutive alternatives.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["unit-economics", "financial-model", "fundraising", "pitch-deck", "bootstrapping"]
+}
