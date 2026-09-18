@@ -1,0 +1,9 @@
+{
+  "name": "marketing-growth",
+  "version": "0.1.0",
+  "description": "Predictable attention: pick one channel that fits, write copy that converts, build SEO/content and lifecycle email, grow a founder brand on one platform, and run paid ads only after PMF and unit economics allow it.",
+  "author": { "name": "codezard" },
+  "homepage": "https://github.com/codezard/founder-os-marketplace",
+  "repository": "https://github.com/codezard/founder-os-marketplace",
+  "keywords": ["marketing", "go-to-market", "copywriting", "seo", "email", "paid-ads"]
+}
